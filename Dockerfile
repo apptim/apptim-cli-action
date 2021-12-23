@@ -7,7 +7,7 @@ LABEL "com.github.actions.description"="Run test in device farm"
 LABEL "com.github.actions.icon"="refresh-cw"
 LABEL "com.github.actions.color"="green"
 
-LABEL version="0.5.1"
+LABEL version="0.0.1"
 LABEL repository="https://github.com/apptim/apptim-cli-action"
 LABEL homepage="https://apptim.com"
 LABEL maintainer="Apptim Dev Team <support@apptim.com>"
