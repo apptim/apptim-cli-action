@@ -1,0 +1,9 @@
+name: "Apptim Cli Action"
+description: "Run tests in device farm"
+author: apptim
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: refresh-cw
+  color: green
