@@ -60,8 +60,6 @@ package-name: "com.amazonaws.devicefarm.android.referenceapp"
 test-runner: startup-time
 thresholds-file: thresholds.yml
 timeout-minutes: 15
-apptim:
-        agent-version: 0.0.8
 device-farm:
         project-arn: "put here your ARN"  # StartupTime Android Tests
 test-devices:
