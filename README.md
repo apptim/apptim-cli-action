@@ -42,6 +42,7 @@ jobs:
         AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
         APPTIM_API_KEY: ${{ secrets.APPTIM_API_KEY }}
         CONFIG_PATH: config.yml 
+        APPTIM_CLI_VERSION: 1.9
 
 
 ```
