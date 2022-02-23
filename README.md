@@ -62,7 +62,7 @@ test-runner: startup-time
 thresholds-file: thresholds.yml
 timeout-minutes: 15
 device-farm:
-        project-arn: "put here your ARN"  # StartupTime Android Tests
+        project-arn: "Your Project ARN"  # StartupTime Android Tests
 test-devices:
   - device:  # Use this exact device and os version:
     os: "9"
