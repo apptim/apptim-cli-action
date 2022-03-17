@@ -2,7 +2,7 @@
 
  # Default to 1.11 if APPTIM_CLI_VERSION not set.
 if [ -z "$APPTIM_CLI_VERSION" ]; then
-	APPTIM_CLI_VERSION=1.11
+	APPTIM_CLI_VERSION=1.12
 fi
 
 mkdir /tmp/apptim-cli
