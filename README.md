@@ -1,7 +1,12 @@
 # apptim-cli-action
-This action runs tests over Android and iOS over real devices hosted in AWS device Farm. 
+This action runs Appium tests over Android and iOS in real devices hosted in AWS device Farm. 
+While running tests, it capture performance metrics of the app. 
+Using a dev-friendly YML file, users can define pass-fail criteria to control pipeline workflows. 
 
-Note: Currently supports startup time & Android only
+## Key Features
+- Automate app & scripts upload, running and getting artifacts
+- Capture performance data
+- Pass or Fail your pipeline measuring KPIs based on dev-friendly YML file. 
 
 ## Pre requisites
 
@@ -42,7 +47,6 @@ jobs:
         AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
         APPTIM_API_KEY: ${{ secrets.APPTIM_API_KEY }}
         CONFIG_PATH: config.yml 
-        APPTIM_CLI_VERSION: 1.16
 
 
 ```
