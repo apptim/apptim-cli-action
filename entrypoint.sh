@@ -1,8 +1,8 @@
 #!/bin/bash
 
- # Default to 1.18 if APPTIM_CLI_VERSION not set.
+ # Default to 1.19 if APPTIM_CLI_VERSION not set.
 if [ -z "$APPTIM_CLI_VERSION" ]; then
-	APPTIM_CLI_VERSION=1.18
+	APPTIM_CLI_VERSION=1.19
 fi
 
 mkdir /tmp/apptim-cli
