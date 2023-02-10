@@ -1,6 +1,6 @@
 #!/bin/bash
 
- # Default to 1.20.3 if APPTIM_CLI_VERSION not set.
+ # Default to 1.21.1 if APPTIM_CLI_VERSION not set.
 if [ -z "$APPTIM_CLI_VERSION" ]; then
 	APPTIM_CLI_VERSION=1.21.1
 fi
