@@ -6,7 +6,7 @@ if [ -z "$APPTIM_CLI_VERSION" ]; then
 fi
 
 mkdir /tmp/apptim-cli
-curl --output /tmp/apptim-cli/cli.zip https://devicefarm.apptim.com/apptim-cli-ubuntu-20.04-${APPTIM_CLI_VERSION}.zip
+curl --output /tmp/apptim-cli/cli.zip https://devicefarm.apptim.com/apptim-cli-ubuntu-24.04-${APPTIM_CLI_VERSION}.zip
 unzip /tmp/apptim-cli/cli.zip -d /tmp/apptim-cli
 
 if [ -n "$APPTIM_AGENT_VERSION" ]; then
